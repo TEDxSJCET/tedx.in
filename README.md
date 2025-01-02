@@ -2,9 +2,9 @@
 
 Eg: 
 
-[tedx.in/sjcet](tedx.in/sjcet) redirects to [tedx.sjcetpalai.ac.in](tedx.sjcetpalai.ac.in)
+[tedx.in/sjcet](https://tedx.in/sjcet) redirects to [tedx.sjcetpalai.ac.in](https://tedx.sjcetpalai.ac.in)
 
-[sjcet.tedx.in](sjcet.tedx.in) redirects to [tedx.sjcetpalai.ac.in](tedx.sjcetpalai.ac.in)
+[sjcet.tedx.in](https://sjcet.tedx.in) redirects to [tedx.sjcetpalai.ac.in](https://tedx.sjcetpalai.ac.in)
 
 ## How to use?
 
