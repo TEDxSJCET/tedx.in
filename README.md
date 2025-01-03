@@ -13,14 +13,21 @@ Create a PR on this repository and we'll merge it.
 `<repo>/<short_name>/index.html`
 ```html
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="refresh" content="0; url=<your_url>" />
-</head>
-<body>
-    Redirecting...
-</body>
+    <title>Redirecting...</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Redirecting...</h1>
+    </div>
+  </body>
 </html>
+
 ```
 
 Inside the PR comment, please provide your Email address and we'll contact you for further subdomain forwarding.

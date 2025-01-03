@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>Page Not Found</p>
+        <p id="redirect-message"></p>
+        <p><a href="/">Return to Homepage</a></p>
+    </div>
+
+    <script>
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(segment => segment.length > 0);
+        
+        if (segments.length >= 2) {
+            const redirectPath = '/' + segments[0];
+            const message = document.getElementById('redirect-message');
+            message.textContent = `Redirecting to ${redirectPath}...`;
+            setTimeout(() => {
+                window.location.href = redirectPath;
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
